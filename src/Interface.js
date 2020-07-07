@@ -5,7 +5,6 @@ export const Interface = (props) => {
     <>
       <img
         alt="choose"
-        onClick={props.startGame}
         style={{ cursor: 'pointer' }}
         width="10%"
         src="https://game-icons.net/icons/ffffff/000000/1x1/delapouite/perspective-dice-six-faces-random.svg"

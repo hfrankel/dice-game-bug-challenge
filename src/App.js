@@ -11,7 +11,7 @@ class App extends React.Component {
   losses = [];
   wins = [];
   state = {
-    games: 0,
+    game: 0,
     yourChoice: '',
     AIChoice: null,
     one:
@@ -36,7 +36,7 @@ class App extends React.Component {
   startGame = () => {
     this.setState({
       yourChoice: Math.floor(Math.random() * 6) + 1,
-      games: this.state.games + 1,
+      games: this.state.games,
     });
 
     this.AIChoice();

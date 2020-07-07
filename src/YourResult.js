@@ -8,7 +8,7 @@ export const YourResult = (props) => {
         <div>You:</div> <img alt="dice" width="50%" src={one} />
       </div>
     );
-  } else if (yourChoice === 2) {
+  } else if (yourChoice == 2) {
     return (
       <div className="result">
         <div>You:</div> <img alt="dice" width="50%" src={two} />

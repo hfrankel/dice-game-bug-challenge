@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Game = (props) => {
+export const Game = () => {
   const { yourChoice, AIChoice } = props.results;
 
   if (yourChoice > AIChoice) {
