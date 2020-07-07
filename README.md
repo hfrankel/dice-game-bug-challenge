@@ -1,5 +1,36 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Dice Game Bug Fix Challenge
+
+- This code was originally taken from https://www.golangprograms.com/dice-game-in-react-js.html
+- Working demo of the app http://demo15.downloader.tech/
+- For this challenge you will need to debug some errors in the code
+- There are 7 bugs set for this challenge that you will need to fix across the different components. Some will be easier to solve than others
+- To see the solution, checkout the solution branch
+
+## Solution
+
+- App.js
+
+  - Line 14 game should be games
+  - Line 39 should add +1 to this.state.games
+  - Line 4 need to import { AIresult } from ‘./AIresult’
+
+- Interface.js
+
+  - Line 8 needs onClick=(props.startGame}
+
+- Game.js
+
+  - Line 3 missing props
+
+- Ranking.js
+
+  - Line 3 need to include export keyword
+
+- YourResult.js
+  - Line 11 needs ===
+
 ## Available Scripts
 
 In the project directory, you can run:
