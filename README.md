@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - This code was originally taken from https://www.golangprograms.com/dice-game-in-react-js.html
 - Working demo of the app http://demo15.downloader.tech/
 - For this challenge you will need to debug some errors in the code
-- There are 7 bugs set for this challenge that you will need to fix across the different components. Some will be easier to solve than others
+- There are 6 bugs set for this challenge that you will need to fix across the different components. Some will be easier to solve than others
 - To see the solution, checkout the solution branch
 
 ## Available Scripts
